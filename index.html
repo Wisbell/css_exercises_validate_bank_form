@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Give us your money!</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+
+	<header>
+	<nav>
+		<h1>And Its Gone! Bank</h1>
+		<h2 id="motto">Give us your money . . . And its gone!</h2>
+	</nav>
+	</header>
+
+	
+	<div id="form_holder">
+
+	<p>Bank Loan Form</p>
+
+	<form action="#" method="post">
+
+		<fieldset id="contact_info">
+
+			<legend>Contact Information</legend>
+
+			<label for="first">First Name <input type="text" name="first_name" id="first"></label><br>
+
+			<label for="middle">Middle Initial <input type="text" name="middle_initial" id="middle"></label><br>
+
+			<label for="last">Last Name <input type="text" name="last_name" id="last"></label><br>
+
+			<label for="address">Address <input type="text" name="address" id="address"></label><br>
+
+			<label for="occupation">Occupation <input type="text" name="occupation" id="occupation"></label><br>
+
+			<label for="employer">Employer <input type="text" name="employer" id="employer"></label><br>
+
+			<label for="employer_address">Employer Address <input type="text" name="employer_address" id="employer_address"></label><br>
+
+		</fieldset>
+
+		<fieldset id="loan_info">
+
+			<legend>Loan Information</legend>
+
+			<label>Type of Loan</label>
+			<select>
+				<option value="commercial">Commercial</option>
+				<option value="real_estate">Real Estate</option>
+				<option value="personal">Personal</option>
+				<option value="mortgage">Mortgage</option>
+			</select><br>
+
+			<label for="last">Requested Loan Amount<input type="text" name="first_name" id="last"></label><br>
+
+			<label>Loan Length</label>
+			<label><input type="radio" name="loan_length" value="five_years" id="loan_length">5 Years</label>
+			<label><input type="radio" name="loan_length" value="ten_years" id="loan_length">10 Years</label>
+			<label><input type="radio" name="loan_length" value="fifteen_years" id="loan_length">15 Years</label><br>
+
+			<label>Special Conditions</label><br>
+			<input type="checkbox" name="conditions" value="down_payment" id="down_payment"> <label for="down_payment">Do you have a down payment.</label><br>
+			<input type="checkbox" name="conditions" value="out_of_state" id="out_of_state"> <label for="out_of_state">Are you and out-of-state resident?</label><br>
+			<input type="checkbox" name="conditions" value="married" id="married"><label for="married">Are you married?</label><br>
+			<input type="checkbox" name="conditions" value="cosigner" id="cosigner"> <label for="cosigner">Do you have a cosigner for your loan?</label><br>
+
+		</fieldset>
+
+		<fieldset id="additional_info">
+			<legend>Additional Information</legend>
+
+			<label>Additonal Comments</label><br>
+
+			<textarea></textarea><br>
+
+			<label for="first">Email Address<input class="email_input" type="email" name="first_name" id="first"></label><br>
+
+			<label for="first">Telephone Number<input type="text" name="first_name" id="first"></label><br>
+
+			<label for="first">LinkedIn URL<input type="text" name="first_name" id="first"></label><br>
+			
+
+		</fieldset>
+		<button type="submit">Don't Click This Dummy!</button><br>
+		<span>There's no server side to process it</span>
+
+	</form>
+</div>
+</body>
+</html>
